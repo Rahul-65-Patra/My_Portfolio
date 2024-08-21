@@ -65,7 +65,7 @@ const srButtom=ScrollReveal({
 
 
 srButtom.reveal(".home-img",{delay:100});
-srButtom.reveal(".portfolio-box",{delay:100});
+srButtom.reveal(".portfolio-container",{delay:100});
 srButtom.reveal(".social-media",{delay:100});
 
 
