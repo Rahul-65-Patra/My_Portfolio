@@ -83,7 +83,6 @@ srLeft.reveal(".about-info",{delay:100});
 srLeft.reveal(".home-content h1",{delay:100});
 srLeft.reveal(".about-img",{delay:100});
 srLeft.reveal(".experience",{delay:100});
-srLeft.reveal(".contact form",{delay:100});
 srLeft.reveal(".left-box",{delay:100});
 
 
@@ -111,7 +110,6 @@ srRight.reveal(".skill-box",{delay:100});
 srRight.reveal(".home-content p",{delay:100});
 srRight.reveal(".about-content",{delay:100});
 srRight.reveal(".services-container",{delay:100});
-srRight.reveal(".earth",{delay:100});
 srRight.reveal(".right-box",{delay:100});
 
 
@@ -159,7 +157,7 @@ jQuery('#dataSubmit').on('submit', function(e) {
 
 
 
-//---------------- Darh and light --------------
+//---------------- Dark and light --------------
 
 // const toggleButton = document.getElementById('darkModeToggle');
 // const toggleIcon = document.getElementById('toggleIcon');
@@ -174,3 +172,6 @@ jQuery('#dataSubmit').on('submit', function(e) {
 //         toggleIcon.src = 'img/sun.png';
 //     }
 // });
+
+
+

@@ -789,7 +789,7 @@ button img{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap:20rem;
+  gap:10rem;
 }
 .earth{ 
   width: 400px;
@@ -810,6 +810,9 @@ button img{
     background-position: 530px 0px;
   }
 }
+
+
+
 .full b{
   text-align: left;
   margin-bottom: 1rem;
@@ -1227,6 +1230,10 @@ button img{
       grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
       gap: 4rem;
     }
+    .earth {
+      width: 200px;
+      height: 200px;
+    }
 }
 
 @media(max-width: 480px) {
@@ -1346,6 +1353,7 @@ button img{
   .portfolio, .section{
     background: none;
   }
+
   
 }
 
