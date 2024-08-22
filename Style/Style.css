@@ -1311,7 +1311,6 @@ button img{
   }
   
   .skill-per .tooltip {
-    
     top: -20px;
   }
   .tooltip {
@@ -1367,7 +1366,5 @@ button img{
   .portfolio, .section{
     background: none;
   }
-
-  
 }
-
+}
