@@ -65,7 +65,6 @@ const srButtom=ScrollReveal({
 
 
 srButtom.reveal(".home-img",{delay:100});
-srButtom.reveal(".portfolio-container",{delay:100});
 srButtom.reveal(".social-media",{delay:100});
 
 
@@ -79,11 +78,12 @@ const srLeft=ScrollReveal({
   reset:true
 })
 
-srLeft.reveal(".about-info",{delay:100});
+srLeft.reveal(".about-info",{delay:10});
 srLeft.reveal(".home-content h1",{delay:100});
+srLeft.reveal(".portfolio-container",{delay:100});
 srLeft.reveal(".about-img",{delay:100});
 srLeft.reveal(".experience",{delay:100});
-srLeft.reveal(".left-box",{delay:100});
+srLeft.reveal(".left-box",{delay:50});
 
 
 const srLeftLine=ScrollReveal({
@@ -105,10 +105,10 @@ const srRight=ScrollReveal({
   reset:true
 })
 
-srRight.reveal(".skill",{delay:100});
-srRight.reveal(".skill-box",{delay:100});
+ srRight.reveal(".skill",{delay:10});
+// srRight.reveal(".skill-box",{delay:100});
 srRight.reveal(".home-content p",{delay:100});
-srRight.reveal(".about-content",{delay:100});
+srRight.reveal(".about-content",{delay:50});
 srRight.reveal(".services-container",{delay:100});
 srRight.reveal(".right-box",{delay:100});
 
