@@ -872,20 +872,18 @@ button img{
   border-color: var(--main-color);
   transform: scale(1.02);
 }
-input[type="date"] {
-  color: white;
-}
-input[type="date"]::-webkit-calendar-picker-indicator {
+
+/* input[type="date"]::-webkit-calendar-picker-indicator {
   filter: invert(100%); 
-}
+} */
 .contact form .input-box input {
-  width: 49%;
+  width: 49%; 
 }
 .contact form .input-box input::placeholder,
 .contact form textarea::placeholder
 {
   color: var(--text-color);
-}
+} 
 .contact form textarea {
   resize: none;
 }
@@ -1008,12 +1006,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   .skill-box .skill-bar{
    margin-top: 7rem;
   }
-  input[type="date"] {
-    color: white;
-  }
-  input[type="date"]::-webkit-calendar-picker-indicator {
+  /* input[type="date"]::-webkit-calendar-picker-indicator {
     filter: invert(100%); 
-  }
+  } */
 }
 
 @media (max-width: 992px) {
@@ -1078,12 +1073,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
       position: relative;
       top: 4rem;
   }
-  input[type="date"] {
-    color: white;
-  }
-  input[type="date"]::-webkit-calendar-picker-indicator {
+  /* input[type="date"]::-webkit-calendar-picker-indicator {
     filter: invert(100%); 
-  }
+  } */
 }
 
 @media (max-width: 768px){
@@ -1245,12 +1237,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
       width: 200px;
       height: 200px;
     }
-    input[type="date"]::placeholder {
-      color: white;
-    }
-    input[type="date"]::-webkit-calendar-picker-indicator {
+    /* input[type="date"]::-webkit-calendar-picker-indicator {
       filter: invert(100%); 
-    }
+    } */
 }
 
 @media(max-width: 480px) {
@@ -1381,10 +1370,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   .portfolio, .section{
     background: none;
   }
-  input[type="date"] {
-    color: white;
-  }
-  input[type="date"]::-webkit-calendar-picker-indicator {
+  /* input[type="date"]::-webkit-calendar-picker-indicator {
     filter: invert(100%); 
-  }
+  } */
 }
