@@ -872,7 +872,9 @@ button img{
   border-color: var(--main-color);
   transform: scale(1.02);
 }
-
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(100%); 
+}
 .contact form .input-box input {
   width: 49%;
 }
@@ -980,7 +982,7 @@ button img{
   body {
     font-size: 14px;
   }
-
+}
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
@@ -1162,11 +1164,7 @@ button img{
       grid-template-columns: repeat(3, 1fr);
       gap: 1rem;
     }
-    .portfolio-container {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap:1rem;
-    }
+
     .experience p {
       margin-left: 1rem;
       font-size: 1.4rem;
@@ -1227,10 +1225,6 @@ button img{
     }
     .portfolio, .section{
       background: none;
-    }
-    .portfolio-container {
-      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
-      gap: 4rem;
     }
     .earth {
       width: 200px;
@@ -1331,7 +1325,7 @@ button img{
   }
 .footer{
   display: block;
-  width: 100vh;
+  width: 105vh;
   padding:15px;
   background: var(--snd-bg-color);
 }
@@ -1366,5 +1360,4 @@ button img{
   .portfolio, .section{
     background: none;
   }
-}
 }
