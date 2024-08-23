@@ -872,6 +872,9 @@ button img{
   border-color: var(--main-color);
   transform: scale(1.02);
 }
+input[type="date"] {
+  color: white;
+}
 input[type="date"]::-webkit-calendar-picker-indicator {
   filter: invert(100%); 
 }
@@ -1005,6 +1008,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   .skill-box .skill-bar{
    margin-top: 7rem;
   }
+  input[type="date"] {
+    color: white;
+  }
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(100%); 
+  }
 }
 
 @media (max-width: 992px) {
@@ -1068,6 +1077,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     font-size: 2rem;
       position: relative;
       top: 4rem;
+  }
+  input[type="date"] {
+    color: white;
+  }
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(100%); 
   }
 }
 
@@ -1230,6 +1245,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
       width: 200px;
       height: 200px;
     }
+    input[type="date"] {
+      color: white;
+    }
+    input[type="date"]::-webkit-calendar-picker-indicator {
+      filter: invert(100%); 
+    }
 }
 
 @media(max-width: 480px) {
@@ -1359,5 +1380,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   }
   .portfolio, .section{
     background: none;
+  }
+  input[type="date"] {
+    color: white;
+  }
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(100%); 
   }
 }
