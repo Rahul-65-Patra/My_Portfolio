@@ -240,7 +240,7 @@ button img{
   font-size: 4.5rem;
   color: var(--text-color);
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom:50px;
   letter-spacing: 2px;
   animation: about 4s infinite linear;
 }
